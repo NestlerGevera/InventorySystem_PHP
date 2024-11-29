@@ -16,6 +16,15 @@
    </ul>
   </li>
   <li>
+    <a href="#" class="submenu-toggle">
+      <i class="glyphicon glyphicon-user"></i>
+      <span>Staff Management</span>
+    </a>
+    <ul class="nav submenu">
+      <li><a href="staff.php">Manage Staffs</a> </li>
+   </ul>
+  </li>
+  <li>
     <a href="categorie.php" >
       <i class="glyphicon glyphicon-indent-left"></i>
       <span>Categories</span>
@@ -24,11 +33,11 @@
   <li>
     <a href="#" class="submenu-toggle">
       <i class="glyphicon glyphicon-th-large"></i>
-      <span>Products</span>
+      <span>Inventory / Products</span>
     </a>
     <ul class="nav submenu">
-       <li><a href="product.php">Manage Products</a> </li>
-       <li><a href="add_product.php">Add Products</a> </li>
+       <li><a href="product.php">Manage Item / Products</a> </li>
+       <li><a href="add_product.php">Add Item / Products</a> </li>
    </ul>
   </li>
   <li>

@@ -14,11 +14,11 @@
   <li>
     <a href="#" class="submenu-toggle">
       <i class="glyphicon glyphicon-th-large"></i>
-      <span>Products</span>
+      <span>Inventory / Products</span>
     </a>
     <ul class="nav submenu">
-       <li><a href="product.php">Manage product</a> </li>
-       <li><a href="add_product.php">Add product</a> </li>
+       <li><a href="product.php">Manage Items</a> </li>
+       <li><a href="add_product.php">Add Item / Product</a> </li>
    </ul>
   </li>
   <li>

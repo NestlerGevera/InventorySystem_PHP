@@ -74,7 +74,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <select class="form-control" name="product-categorie">
-                      <option value="">Select Product Category</option>
+                      <option value="">Select Item / Product Category</option>
                     <?php  foreach ($all_categories as $cat): ?>
                       <option value="<?php echo (int)$cat['id'] ?>">
                         <?php echo $cat['name'] ?></option>
@@ -83,7 +83,7 @@
                   </div>
                   <div class="col-md-6">
                     <select class="form-control" name="product-photo">
-                      <option value="">Select Product Photo</option>
+                      <option value="">Select Item / Product Photo</option>
                     <?php  foreach ($all_photo as $photo): ?>
                       <option value="<?php echo (int)$photo['id'] ?>">
                         <?php echo $photo['file_name'] ?></option>
@@ -100,7 +100,7 @@
                      <span class="input-group-addon">
                       <i class="glyphicon glyphicon-shopping-cart"></i>
                      </span>
-                     <input type="number" class="form-control" name="product-quantity" placeholder="Product Quantity">
+                     <input type="number" class="form-control" name="product-quantity" placeholder="Item / Product Quantity">
                   </div>
                  </div>
                  <div class="col-md-4">

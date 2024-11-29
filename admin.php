@@ -48,7 +48,7 @@
        </div>
     </div>
 	</a>
-	
+
 	<a href="product.php" style="color:black;">
     <div class="col-md-3">
        <div class="panel panel-box clearfix">
@@ -167,7 +167,7 @@
                 <?php endif;?>
                 <?php echo remove_junk(first_character($recent_product['name']));?>
                   <span class="label label-warning pull-right">
-                 $<?php echo (int)$recent_product['sale_price']; ?>
+                  PHP <?php echo (int)$recent_product['sale_price']; ?>
                   </span>
                 </h4>
                 <span class="list-group-item-text pull-right">
